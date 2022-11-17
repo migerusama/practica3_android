@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">Practica3</string>
+    <string name="qu_tipo_de_servicio_necesitas">¿Qué tipo de servicio necesitas?</string>
+    <string name="sueling" translatable="false">SUELING</string>
+    <string name="opcion_todavia_no_configurada">Opción todavía no configurada</string>
+    <string name="tipo_de_suelo_deseado">Tipo de suelo deseado:</string>
+    <string name="nombre">Nombre *</string>
+    <string name="email">Email *</string>
+    <string name="repita_su_email">Repita su email *</string>
+    <string name="m_de_su_vivienda">m² de su vivienda *</string>
+    <string name="petici_n_de_presupuesto_para_instalaci_n_de_suelo_radiante">Petición de presupuesto para instalación de suelo radiante</string>
+    <string name="datos_que_considere_que_podr_an_afectar_a_la_instalaci_n">Datos que considere que podrían afectar a la instalación</string>
+    <string name="el_ctrico">Eléctrico</string>
+    <string name="por_agua">Por agua</string>
+    <string name="deseo_recibir_la_revista_t_cnica_mensual_sobre_novedades_en_el_sector">Deseo recibir la revista técnica mensual sobre novedades en el sector</string>
+    <string name="deseo_recibir_informaci_n_peri_dica_promocional">Deseo recibir información periódica promocional.</string>
+    <string name="enviar_petici_n">Enviar petición</string>
+</resources>

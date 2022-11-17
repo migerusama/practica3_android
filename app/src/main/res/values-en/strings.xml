@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practica3</string>
+    <string name="opcion_todavia_no_configurada">Option not configured yet</string>
+    <string name="qu_tipo_de_servicio_necesitas">What kind of service do you need?</string>
+</resources>
