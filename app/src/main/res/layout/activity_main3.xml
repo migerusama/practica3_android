@@ -38,8 +38,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="10dp"
-        android:text="b" />
+        android:layout_marginBottom="10dp" />
 
     <TextView
         android:id="@+id/tvEmail"
@@ -48,13 +47,13 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="10dp"
-        android:text="a" />
+        android:layout_marginBottom="10dp" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        tools:ignore="ImageContrastCheck"
         tools:srcCompat="@mipmap/ok_foreground" />
 
     <Button
@@ -64,5 +63,5 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="100dp"
-        android:text="volver al inicio" />
+        android:text="@string/volver_al_inicio" />
 </LinearLayout>

@@ -40,7 +40,7 @@ class MainActivity2 : AppCompatActivity(), View.OnClickListener {
         if (!checkAllGood()) {
             Toast.makeText(
                 this,
-                "Rellene correctamente los campos obligatorios",
+                getString(R.string.rellene_correctamente_los_campos_obligatorios),
                 Toast.LENGTH_SHORT
             ).show()
         } else {
@@ -50,17 +50,17 @@ class MainActivity2 : AppCompatActivity(), View.OnClickListener {
 
     private fun showAlert() {
         val builder = AlertDialog.Builder(this)
-        builder.setMessage("¿Deséa enviar lso datos al servidor?")
+        builder.setMessage(getString(R.string.desea_renviar_los_datos_al_servidor))
         builder.setPositiveButton(android.R.string.yes) { dialog, which ->
             val intent = Intent(this, MainActivity3::class.java)
             intent.putExtra("nombre",name.text.toString())
             intent.putExtra("email",email.text.toString())
             startActivity(intent)
         }
-        builder.setNegativeButton(android.R.string.no) { dialog, which ->
+        builder.setNegativeButton("NO") { dialog, which ->
             dialog.dismiss()
         }
-        builder.setNeutralButton("Cancelar") { dialog, which ->
+        builder.setNeutralButton(getString(R.string.cancelar)) { dialog, which ->
             dialog.dismiss()
         }
         builder.show()
@@ -70,14 +70,14 @@ class MainActivity2 : AppCompatActivity(), View.OnClickListener {
         return if (name.text.isNotEmpty() && email.text.isNotEmpty() && emailR.text.isNotEmpty() && mCuadrados.text.isNotEmpty()) {
             true
         } else {
-            if (name.text.isEmpty()) name.error = "Nombre obligatorio"
-            if (email.text.isEmpty()) email.error = "Email obligatorio"
+            if (name.text.isEmpty()) name.error = getString(R.string.nombre_obligatorio)
+            if (email.text.isEmpty()) email.error = getString(R.string.email_obligatorio)
             if (emailR.text.isEmpty()) {
-                emailR.error = "Repetir email obligatorio"
+                emailR.error = getString(R.string.repetir_email_obligatorio)
                 if (!email.text.equals(emailR.text))
-                    emailR.error = "Ambos email tienen que ser iguales"
+                    emailR.error = getString(R.string.ambos_email_tienen_que_ser_iguales)
             }
-            if (mCuadrados.text.isEmpty()) mCuadrados.error = "m² obligatorio"
+            if (mCuadrados.text.isEmpty()) mCuadrados.error = getString(R.string.m2_obligatorio)
             false
         }
 

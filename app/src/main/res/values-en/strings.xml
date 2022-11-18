@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Practica3</string>
     <string name="opcion_todavia_no_configurada">Option not configured yet</string>
     <string name="qu_tipo_de_servicio_necesitas">What kind of service do you need?</string>
+    <string name="nombre">Name *</string>
+    <string name="repita_su_email">Repeat your email *</string>
+    <string name="plazo">Within a maximum period of 48 hours you will receive your budget by email:</string>
+    <string name="gracias2">, the data provided has been sent to our staff.</string>
+    <string name="gracias">"Thank you "</string>
+    <string name="enviar_petici_n">Send request</string>
+    <string name="deseo_recibir_informaci_n_peri_dica_promocional">I wish to receive periodic promotional information.</string>
+    <string name="deseo_recibir_la_revista_t_cnica_mensual_sobre_novedades_en_el_sector">I want to receive the monthly technical magazine about news in the sector</string>
+    <string name="el_ctrico">Electric</string>
+    <string name="por_agua">Water</string>
+    <string name="datos_que_considere_que_podr_an_afectar_a_la_instalaci_n">Data that you consider could affect the installation</string>
+    <string name="petici_n_de_presupuesto_para_instalaci_n_de_suelo_radiante">Budget request for underfloor heating installation</string>
+    <string name="m_de_su_vivienda">m² of your home *</string>
+    <string name="tipo_de_suelo_deseado">Desired soil type:</string>
+    <string name="cancelar">Cancel</string>
+    <string name="desea_renviar_los_datos_al_servidor">Do you want to send the data to the server?</string>
+    <string name="rellene_correctamente_los_campos_obligatorios">Fill in the required fields correctly</string>
+    <string name="nombre_obligatorio">Required name</string>
+    <string name="email_obligatorio">Required email</string>
+    <string name="repetir_email_obligatorio">Repeat email required</string>
+    <string name="ambos_email_tienen_que_ser_iguales">Both emails have to be the same</string>
+    <string name="m2_obligatorio">m² required</string>
+    <string name="volver_al_inicio">HOME</string>
 </resources>

@@ -5,7 +5,7 @@
     <string name="opcion_todavia_no_configurada">Opción todavía no configurada</string>
     <string name="tipo_de_suelo_deseado">Tipo de suelo deseado:</string>
     <string name="nombre">Nombre *</string>
-    <string name="email">Email *</string>
+    <string name="email" translatable="false">Email *</string>
     <string name="repita_su_email">Repita su email *</string>
     <string name="m_de_su_vivienda">m² de su vivienda *</string>
     <string name="petici_n_de_presupuesto_para_instalaci_n_de_suelo_radiante">Petición de presupuesto para instalación de suelo radiante</string>
@@ -15,7 +15,16 @@
     <string name="deseo_recibir_la_revista_t_cnica_mensual_sobre_novedades_en_el_sector">Deseo recibir la revista técnica mensual sobre novedades en el sector</string>
     <string name="deseo_recibir_informaci_n_peri_dica_promocional">Deseo recibir información periódica promocional.</string>
     <string name="enviar_petici_n">Enviar petición</string>
-    <string name="gracias">Gracias</string>
-    <string name="gracias2">asojdaihgds</string>
-    <string name="plazo" />
+    <string name="gracias">Gracias </string>
+    <string name="gracias2">, los datos proporcionados han sido enviados a nuestro personal.</string>
+    <string name="plazo">En un plazo máximo de 48 horas recibirá su presupuesto en el email:</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="desea_renviar_los_datos_al_servidor">¿Deséa enviar los datos al servidor?</string>
+    <string name="rellene_correctamente_los_campos_obligatorios">Rellene correctamente los campos obligatorios</string>
+    <string name="nombre_obligatorio">Nombre obligatorio</string>
+    <string name="email_obligatorio">Email obligatorio</string>
+    <string name="repetir_email_obligatorio">Repetir email obligatorio</string>
+    <string name="ambos_email_tienen_que_ser_iguales">Ambos email tienen que ser iguales</string>
+    <string name="m2_obligatorio">m² obligatorio</string>
+    <string name="volver_al_inicio">volver al inicio</string>
 </resources>

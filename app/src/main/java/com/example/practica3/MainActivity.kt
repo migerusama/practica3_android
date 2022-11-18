@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         init()
     }
 
-    fun init(){
+    private fun init(){
         val btn1 = findViewById<ImageButton>(R.id.btn1)
         val btn2 = findViewById<ImageButton>(R.id.btn2)
         val btn3 = findViewById<ImageButton>(R.id.btn3)
