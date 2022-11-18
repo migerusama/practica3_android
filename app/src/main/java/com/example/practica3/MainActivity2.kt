@@ -67,15 +67,15 @@ class MainActivity2 : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun checkAllGood(): Boolean {
-        return if (name.text.isNotEmpty() && email.text.isNotEmpty() && emailR.text.isNotEmpty() && mCuadrados.text.isNotEmpty()) {
+        return if (name.text.isNotEmpty() && email.text.isNotEmpty() && emailR.text.isNotEmpty() && mCuadrados.text.isNotEmpty() && email.text.toString().equals(emailR.text.toString())) {
             true
         } else {
             if (name.text.isEmpty()) name.error = getString(R.string.nombre_obligatorio)
             if (email.text.isEmpty()) email.error = getString(R.string.email_obligatorio)
             if (emailR.text.isEmpty()) {
                 emailR.error = getString(R.string.repetir_email_obligatorio)
-                if (!email.text.equals(emailR.text))
-                    emailR.error = getString(R.string.ambos_email_tienen_que_ser_iguales)
+            }else if (!email.text.toString().equals(emailR.text.toString())){
+                emailR.error = getString(R.string.ambos_email_tienen_que_ser_iguales)
             }
             if (mCuadrados.text.isEmpty()) mCuadrados.error = getString(R.string.m2_obligatorio)
             false

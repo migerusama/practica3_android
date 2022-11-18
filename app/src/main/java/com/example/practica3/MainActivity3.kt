@@ -20,8 +20,8 @@ class MainActivity3 : AppCompatActivity() {
         var name = intent.getStringExtra("nombre").toString()
         var email = intent.getStringExtra("email").toString()
         init()
-        tvNombre.text = getString(R.string.gracias)+name+getString(R.string.gracias2)
-        tvEmail.text = getString(R.string.plazo)+email
+        tvNombre.text = getString(R.string.gracias)+" "+name+getString(R.string.gracias2)
+        tvEmail.text = getString(R.string.plazo)+" "+email
     }
 
     private fun init(){
