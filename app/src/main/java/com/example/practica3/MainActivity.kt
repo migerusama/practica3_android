@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         init()
-
     }
 
     fun init(){
@@ -31,9 +30,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btn4.setOnClickListener(this)
         btn5.setOnClickListener(this)
         btn6.setOnClickListener(this)
-        if(Locale.getDefault().getLanguage() == "en")
+        if(Locale.getDefault().language == "en")
             language.setImageResource(R.mipmap.usa_foreground)
-        else if(Locale.getDefault().getLanguage() == "es")
+        else if(Locale.getDefault().language == "es")
             language.setImageResource(R.mipmap.spain_foreground)
     }
 
