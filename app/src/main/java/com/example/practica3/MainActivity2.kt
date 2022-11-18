@@ -53,6 +53,8 @@ class MainActivity2 : AppCompatActivity(), View.OnClickListener {
         builder.setMessage("¿Deséa enviar lso datos al servidor?")
         builder.setPositiveButton(android.R.string.yes) { dialog, which ->
             val intent = Intent(this, MainActivity3::class.java)
+            intent.putExtra("nombre",name.text.toString())
+            intent.putExtra("email",email.text.toString())
             startActivity(intent)
         }
         builder.setNegativeButton(android.R.string.no) { dialog, which ->
